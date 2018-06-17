@@ -1,0 +1,55 @@
+.vector-graphic {
+  position: absolute;
+  overflow: visible;
+}
+
+.share path {
+    fill: #a3a3a3;
+}
+
+.heart {
+    fill: #a3a3a3;
+}
+
+.x {
+    fill: #FFF;
+    cursor: pointer;
+}
+
+.left {
+    fill: #FFF;
+    transform: scale(15);
+}
+
+.right {
+    fill: #FFF;
+    transform: scale(15);
+}
+
+.x-box {
+    transform: scale(.5);
+    transform-origin: 3660px 1px;
+    cursor: pointer;
+}
+
+.heart-box {
+    transform: translateX(100px);
+}
+
+.share-box {
+    transform: translateX(220px);
+}
+
+.left-box {
+    width: 125px;
+    top: 383px;
+    left: 6px;
+    cursor: pointer;
+}
+
+.right-box {
+    width: 125px;
+    top: 383px;
+    right: -35px;
+    cursor: pointer;
+}
